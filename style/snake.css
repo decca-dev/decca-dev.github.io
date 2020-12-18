@@ -1,0 +1,36 @@
+body{
+    background-image: url('https://wallpapercave.com/wp/wp2409705.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;
+    background-position-y: 2px;
+    background-position-x: 1px;
+}
+
+#snakeboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score {
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+.misc {
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.misc .btn {
+    border-radius: 10px;
+}
+
+.misc .btn:hover{
+    transform: scale(0.98);
+}
