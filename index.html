@@ -4,99 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../images/pfp.png" type="image/png">
     <title>decc00n</title>
-    <meta name="keyword" content="decca, decc00n, deccoon, decca-dev">
+    <meta name="keyword" content="decca, decc00n, decca-dev">
     <meta content="decc00n" property="og:title"> 
-    <meta content="Front-end developer and discord bots enthusiastic" property="og:description">
+    <meta content="Full stack developer developer and api enthusiastic" property="og:description">
     <meta content="https://decc00n.tk" property="og:url">
-    <meta content="https://cdn.discordapp.com/avatars/589044704708919316/4cd1fd243c27ac8f16d1fd00247ef379.png?size=2048" property="og:image">
+    <meta content="https://decc00n.tk/images/pfp.png" property="og:image">
     <meta content="#407aed" data-react-helmet="true" name="theme-color">
-    <link rel="icon" href="../images/decca.png" type="image/png">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/util.css">
-
 </head>
 <body>
-    <div class="navbar">
-        <div class="container flex">
-            <h1 class="logo">decc00n</h1>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7289da">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/pfp.png" alt="" width="50" height="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><i class="fas fa-book"></i> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-laptop-code"></i> Projects</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-    <div class="fab-container">
-        <div class="fab fab-icon-holder">
-            <i class="fas fa-question"></i>
-        </div>
-        <ul class="fab-options">
-            <li>
-                <span class="fab-label">ParadoxBot</span>
-                <div class="fab-icon-holder">
-                    <a href="https://bit.ly/Paradox-Bot" target="_blank"><i class="fas fa-gamepad"></i></a>
+    </nav>
+    <div class="body-container">
+        <img src="./svg/top.svg" alt="" width="100%" height="100%">
+        <div class="container text-center">
+            <img src="./images/pfp.png" alt="" class="avatar" width="100" height="100">
+            <div class="pb-3 pt-3">
+                <img src="./emojis/wave.svg" alt="" width="50" height="50" class="d-inline"><h1>Hello! My name is decc00n</h1>
+            </div>
+            <h3 class="pb-5" id="typewrite"></h3>
+            <section id="about" class="pb-5">
+                <i class="fas fa-pen big"></i>
+                <h1>About</h1>
+                <h5 class="pb-5">I was initially just a random discord bot developer, then i got into web development and i really liked it, so i continued with it, learned a lot stuff and made awesome websites, APIs, and more!</h5>
+                <h6 class="pb-3">I am currently learning graphics and UX/UI design and here's what i made for one of my projects:</h6>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/Rectangle 1.png" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/Rectangle 2.png" class="d-block w-100" alt="">
+                      </div>
+                    </div>
                 </div>
-            </li>
-        </ul>
-    </div>
-    <section class="showcase">
-        <div class="container grid">
-            <div class="showcase-text">
-                <h1>Hi, my name is decc00n</h1>
-                <p>
-                    I like coding discord bots and sharing them with others! I recently got into web development and this is my first website, enjoy!
-                </p>
-            </div>
+                <img src="https://api.decc00n.tk/canvas/makememe?key=9z0AiEzuVAtHFqqm0durwD3Uo1yP&imgUrl=https://cdn.discordapp.com/avatars/589044704708919316/f4b873851497f666fdc7422c25d5f234.png&topTxt=drip&botTxt=drip&type=2" alt="" width="300" height="300" class="pb-3">
+                <a href="https://api.decc00n.tk" class="btn btn-primary d-block">Made with Decca API</a>
+            </section>
+            <section id="projects">
+                <i class="fas fa-code big"></i>
+                <h1>Projects</h1>
+                <h6 class="pb-3">Here are some of the projects that i worked on</h6>
+                <div class="projects">
+                    <div class="card mb-3" style="max-width: 400px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="./images/api.png" alt="">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Decca API</h5>
+                              <p class="card-text">Make neat images!</p>
+                              <a href="https://api.decc00n.tk" class="btn btn-primary">Visit</a>
+                                <a href="https://github.com/Idle-Developers/Decca-API" class="btn btn-secondary">Github repository</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 400px;">
+                        <div class="row g-0">
+                          <div class="col-md-4 pt-1">
+                            <img src="./images/bloghouse.png" alt="" width="85%" class="pt-1 pb-2">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">BlogHouse</h5>
+                              <p class="card-text pb-1">Taking blogs to the moon!</p>
+                              <button class="btn btn-primary" disabled>Visit</button>
+                                <a href="https://github.com/decca-dev/blog-house" class="btn btn-secondary">Github repository</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 400px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="https://cdn.discordapp.com/avatars/751771082062692452/b066f33169b5fc4dbfd8304944e10d6f.png" alt="">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">ParadoxBot</h5>
+                              <p class="card-text">Abandoned discord bot project</p>
+                                <a href="https://paradox.decc00n.tk" class="btn btn-secondary">Website</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <section id="about">
-            <div class="text">
-                <h1>About Me</h1>
-                <img src="../images/bruh.png">
-                <br>
-                <a href="https://www.instagram.com/celtic._.artist" class="btn" target="_blank">Made by celtic artist</a>
-                <p>
-                    I am a discord bot developer at bremea development, we create discord bots for all purposes and we have a growing community.
-                    <br>
-                    I would also like to thank bremea (One of my dearest friends) for inspiring me to get into this domain, without him i wouldn't be here!
-                </p>
-                <br>
+        <img src="./svg/bottom.svg" alt="" width="100%" height="100%">
+    </div>
+    <footer class="footer">
+        <div class="footer-bottom text-center">
+            <div class="socials">
+                <a href="https://dsc.gg/decca">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://github.com/decca-dev">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://youtube.com/c/Decc00n">
+                    <i class="fab fa-youtube"></i>
+                </a>
             </div>
-        </section>
-        <section id="projects">
-            <br>
-            <div class="text">
-                <h1>My Projects</h1>
-                <a href="https://discord.com/api/oauth2/authorize?client_id=737602671208300584&permissions=506851158&scope=bot" target="_blank"><img src="https://cdn.discordapp.com/avatars/737602671208300584/bf783c4f0fac3e0427ae7b99ba862d9c.png?size=100x20"></a>
-                <h3>DeccaBot, a powerful discord bot written in Javascript</h3>
-                <p>
-                    DeccaBot offers the best server management tools that helps you, and your discord server members. Our bot provides some cool utility features and server configurable commands and more content on the way!
-                </p>
-                <!-- <img src="https://camo.githubusercontent.com/2e3b0a11d0fb544f957a0371283d9b1a8ce5fffa0e4f64459d0a5baa3efe511d/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f617661746172732f3733373630323637313230383330303538342f30613132333837646635383763383535333563376364356262323034656536362e706e673f3d313030783230"> -->
-                <a href="https://discord.com/api/oauth2/authorize?client_id=751771082062692452&permissions=134556752&scope=bot" target="_blank"><img src="https://cdn.discordapp.com/avatars/751771082062692452/b066f33169b5fc4dbfd8304944e10d6f.png?size=100x20"></a>
-                <h3>ParadoxBot, a minigames discord bot with a neat economy system</h3>
-                <p>
-                    With the powereful NodeJs, ParadoxBot provides the greatest minigames of all time, also an addicting economy system, a shopping system with buying/selling, and loads of fun!
-                </p>
-                <!-- <img src="https://camo.githubusercontent.com/bc79e9ef123fbc77b235abe8573ceff0f296b55227ac1880ada7c814f0a11ec3/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f617661746172732f3735313737313038323036323639323435322f62303636663333313639623566633464626664383330343934346531306436662e706e673f3d313030783230"> -->
-                <h3>More projects on the way</h3>
-                <p>
-                    I am only a self thaught developer, i did not attend any schools, so i'm still learning more stuff on the go, feel free to follow me on <a href="https://github.com/decca-dev">github</a>, whenever i make something new i'll publish it there!
-                </p>
-                <br>
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="social">
-                <br>
-                <h3>Checkout My Social Media!</h3>
-                <a href="https://github.com/decca-dev" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://twitter.com/decc00n" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="https://discord.gg/7BcK5yX" target="_blank"><i class="fab fa-discord fa-2x"></i></a>
-                <p>&copy; decc00n | decca bots</p>
-            </div>
-        </footer>
+            <img src="./images/pfp.png" alt="" width="50" height="50" class="d-inline"><p class="d-inline">All Rights Reserved &copy;</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
