@@ -1,4 +1,3 @@
-
 var i = 0;
 var txt = randomText();
 var speed = 50;
