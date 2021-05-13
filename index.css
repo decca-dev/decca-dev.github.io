@@ -33,6 +33,10 @@ html, body {
     background-color: var(--body-bg);
 }
 
+.no-underline {
+    text-decoration: none;
+}
+
 .avatar {
     display: inline-block;
     position: relative;
