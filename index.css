@@ -33,6 +33,10 @@ html, body {
     background-color: var(--body-bg);
 }
 
+.pta {
+    padding-top: 25px;
+}
+
 .no-underline {
     text-decoration: none;
 }
