@@ -20,7 +20,7 @@ function randomText() {
     "I make APIs.",
     "I make discord bots.",
     "I'm an upcoming UX/UI designer.",
-    "I'm a producer"
+    "I'm a producer."
   ];
   var randomNumber = Math.floor(Math.random()*textArray.length);
 
